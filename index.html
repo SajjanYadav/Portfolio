@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--BOX ICON-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Sajjan</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Service</a>
+            <a href="#project">Projects</a>        
+            <a href="#contact">Contact</a>            
+        </nav>
+    </header>
+
+    <!--HOME SECTION-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello! it's me</h3>
+            <h1>SAJJAN YADAV</h1>
+            <h3>I'm a <span>Tech Enthusiast</span></h3>
+            <p>Great to see you here, I am open to collaborate on projects and Feel free to contact me</p>
+            <div class="social-media">
+                <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/SajjanYadav" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="https://twitter.com/SajjanStr" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                <a href="#" target="_blank"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <a href="#" class="cv">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/img3.png" alt="">
+        </div>
+    </section>
+
+    <!--SERVICE SECTION-->
+    <section class="services" id="services">
+        <h2 class="heading"><span>Service</span></h2>
+        <div class="service-container">
+            <div class="service-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Frontend Development</h3>
+                <p>I am Frontend developer and this website is example of it and many are linked in project section.</p>
+                <a href="https://github.com/SajjanYadav" class="cv" target="_blank">Know More</a>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bxs-edit' ></i>
+                <h3>Blogging</h3>
+                <p>I love to write Technical Blogs and I wrote at Hashnode.</p>
+                <a href="https://hashnode.com/@SajjanY" class="cv" target="_blank">Know More</a>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bx-video' ></i>
+                <h3>Video Content</h3>
+                <p>I can create Video content for you, here is an example of it.</p>
+                <a href="https://www.youtube.com/watch?v=qiV0pq_E6s8" class="cv" target="_blank">Know More</a>
+            </div>
+        </div>
+        
+    </section>
+
+    <!--PROJECT SECTION-->
+    <section class="project" id="project">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="project-container">
+            <div class="project-box">
+                <img src="images/calculator.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Calculator</h4>
+                    <p>Built a Calculator using HTML, CSS and Javascript with each button resposive.</p>
+                    <a href="https://sajjanyadav.github.io/Calculator/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="images/booking.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Booking Application</h4>
+                    <p>A booking application made using GO language.</p>
+                    <a href="https://github.com/SajjanYadav/Booking-application" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="images/drumkit1.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Drumkit</h4>
+                    <p>A Drumkit made using HTML, CSS and Javascript with each button having different sound.</p>
+                    <a href="https://sajjanyadav.github.io/DrumKit/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="images/extension1.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Chrome Extension</h4>
+                    <p>An extension for Chrome made using HTML, CSS and Javascript which helps you saving all your Links.</p>
+                    <a href="https://github.com/SajjanYadav/Chrome-Extension" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="images/simon1.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Simon Game</h4>
+                    <p>Simon Game made using HTML, CSS and Javascript.</p>
+                    <a href="https://sajjanyadav.github.io/Simon-Game/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CONTACT SECTION-->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="cv">
+        </form>
+    </section>
+
+    <!--FOOTER DESIGN-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Sajjan | Made with ❤️</p>
+        </div>
+
+        <div class="footer-Topicon">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
